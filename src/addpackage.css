@@ -1,0 +1,33 @@
+div.first4-div{
+    background-image: url('add.avif');
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+div.contactus{
+    color:white;
+    font-size: 46px;
+    font-style:initial;
+    font-stretch: expanded;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    line-height: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    filter: drop-shadow(5px 5px 5px  rgb(255, 254, 254));
+}
+div.second4-div{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.btn-dark{
+    margin-top: 30px;
+}
+div.footera{
+    height: 100px;
+    color: rgb(145, 141, 141);
+}

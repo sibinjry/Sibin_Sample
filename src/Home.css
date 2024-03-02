@@ -1,0 +1,93 @@
+div.Main-div{
+    background-color: white;
+}
+div.first1-div{
+    background-image: url('real1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 655px;
+    width: 100%;
+    font-family: sans-serif;
+}
+ p.first-Par{
+    font-size: 46px;
+    color: white;
+    filter: drop-shadow(10px 10px 10px black);
+    text-align: center;
+    height: 60vh;
+    padding-top: 240px;
+    filter: drop-shadow(10px 10px 10px black);
+    /* margin-top: 50px; */
+
+}
+p.second-Par{
+    font-size: 56px;
+    color:rgb(250, 250, 250);
+    /* align-items: center; */
+    height: 50vh;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: -80px;
+    filter: drop-shadow(10px 10px 10px black);
+
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 620px;
+    margin-top: -240px;
+}
+div.Second-Div{
+    padding-top: 90px;
+}
+div.About{
+    padding-top: 100px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: red;
+
+}
+div.second1-about{
+    padding-right: 40px;
+}
+div.third1-about{
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+img.imageeee{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+img.image{
+    width: 350px;
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+div.sale{
+    color: navy;
+    font-style: italic;
+}
+div.footer{
+    background-color: rgb(153, 153, 153);
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 40px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgb(0, 0, 54);
+}
+.column-img{
+    margin-top: 20px;
+}
+
+
+

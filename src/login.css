@@ -1,0 +1,38 @@
+div.first5-div{
+    background-image: url('login.jpeg');
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+div.contacteus{
+    color:black;
+    font-size: 46px;
+    font-style:initial;
+    font-stretch: expanded;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    line-height: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    filter: drop-shadow(10px 10px 10px navy);
+    margin-right: 80px;
+}
+.transparent-black-div {
+    background-color: rgba(0, 0, 0, 0.5); /* This sets the background color to black with 50% opacity */
+    color: white; /* This sets the text color to white for better contrast */
+    padding: 20px;
+    width: 50%;
+    border-radius: 40px;
+    margin-left: 280px;
+    margin-top: 80px;
+  }
+  div.footer5{
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(177, 177, 177);
+  }
+ 
+  

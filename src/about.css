@@ -1,0 +1,91 @@
+div.first2-div{
+    background-image: url('about.jpg');
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+div.Aboutus{
+    color:white;
+    font-size: 46px;
+    font-style:initial;
+    font-stretch: expanded;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    line-height: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    filter: drop-shadow(5px 5px 5px  rgb(255, 254, 254));
+}
+div.second2-about{
+    font-size: 20px;
+    padding-top: 40px;
+}
+div.second2-about-content{
+    font-size: 46px;
+    padding-top: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    filter: drop-shadow(10px 10px 10px black);
+}
+div.second-about-contents{
+    padding-top: 30px;
+    font-size: 26px;
+    padding: 50px 50px;
+}
+div.choose-us{
+    padding-top: 70px;
+}
+div.Choose{
+    font-size: 30px;
+    color: red;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+div.experience{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-variant: inherit;
+    padding-top: 30px;
+}
+.we-are{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    font-variant: inherit;
+    padding-top: 20px;
+}
+div.agent-about{
+    font-size: 20px;
+    padding-top: 40px;
+    color: red;
+}
+div.agent-about-content{
+    font-size: 46px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    filter: drop-shadow(10px 10px 10px black);
+    color: rgb(0, 0, 46);
+}
+.image-sec{
+    padding-top: 40px;
+}
+div.Name{
+    padding-top: 20px;
+
+}
+.Name{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+div.footer{
+    background-color: rgb(168, 168, 168);
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
