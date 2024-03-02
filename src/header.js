@@ -6,32 +6,28 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Header(){
-    return(
-        <>
-        <div className="main-div" style={{ backgroundColor:{backgroundColor:'rgba(52,52,52,alpha)'}}}>
-       <Navbar>
+function Header() {
+  return (
+    <>
+      <div className="main-div" style={{ backgroundColor: { backgroundColor: 'rgba(52,52,52,alpha)' } }}>
+      <Navbar expand="md" bg="light" variant="light">
       <Container>
         <Navbar.Brand href="#home" className="real">Real Estate Management</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navitem">
-            <Nav.Link href="http://localhost:3000/Home.js">Home</Nav.Link>
-            <Nav.Link href="http://localhost:3000/about.js">About</Nav.Link>
-            <Nav.Link href="http://localhost:3000/packages.js">packages</Nav.Link>
-            <Nav.Link href="http://localhost:3000/addpackages.js">Addpackages</Nav.Link>
-
-            <Nav.Link href="http://localhost:3000/contact.js">Contact</Nav.Link>
-            <Nav.Link href="http://localhost:3000/login.js">Login</Nav.Link>
-            {/* <Nav.Link href="http://localhost:3000/table.js">Table</Nav.Link> */}
-            </Nav>
-            
-         
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#packages">Packages</Nav.Link>
+            <Nav.Link href="#addpackages">Add Packages</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#login">Login</Nav.Link>
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
-         </>
-    );
+      </div>
+    </>
+  );
 }
 export default Header;
