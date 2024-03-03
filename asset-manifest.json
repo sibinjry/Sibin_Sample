@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sibin_Sample/static/css/main.4ed929a3.css",
-    "main.js": "/Sibin_Sample/static/js/main.4fb0d8fa.js",
+    "main.css": "/Sibin_Sample/static/css/main.eb0936b4.css",
+    "main.js": "/Sibin_Sample/static/js/main.5b0d1bbe.js",
     "static/js/496.39d9006c.chunk.js": "/Sibin_Sample/static/js/496.39d9006c.chunk.js",
     "static/media/about.jpg": "/Sibin_Sample/static/media/about.4b3d745087fc5027d2f2.jpg",
     "static/media/contact.jpeg": "/Sibin_Sample/static/media/contact.af835448430ca61db1df.jpeg",
@@ -10,12 +10,12 @@
     "static/media/real1.jpg": "/Sibin_Sample/static/media/real1.e718bee6ec0828bc1046.jpg",
     "static/media/add.avif": "/Sibin_Sample/static/media/add.77c9bcadc30b2b9075b3.avif",
     "index.html": "/Sibin_Sample/index.html",
-    "main.4ed929a3.css.map": "/Sibin_Sample/static/css/main.4ed929a3.css.map",
-    "main.4fb0d8fa.js.map": "/Sibin_Sample/static/js/main.4fb0d8fa.js.map",
+    "main.eb0936b4.css.map": "/Sibin_Sample/static/css/main.eb0936b4.css.map",
+    "main.5b0d1bbe.js.map": "/Sibin_Sample/static/js/main.5b0d1bbe.js.map",
     "496.39d9006c.chunk.js.map": "/Sibin_Sample/static/js/496.39d9006c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ed929a3.css",
-    "static/js/main.4fb0d8fa.js"
+    "static/css/main.eb0936b4.css",
+    "static/js/main.5b0d1bbe.js"
   ]
 }
