@@ -15,7 +15,7 @@ function Home(){
             <p className="first-Par">Better living</p>
 
             <p className="second-Par">Progressive space for responsible living</p>
-            <Button color="primary" className="btn">Read More</Button>
+            {/* <Button color="primary" className="btn">Read More</Button> */}
           </div>
 
          </div>

@@ -15,9 +15,6 @@ import {
 } from 'react-router-dom';
 import LoginPage from './Authentication/loginPage.js';
 
-
-
-
 function App() {
   // const data = Actions();
 
