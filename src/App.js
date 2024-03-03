@@ -9,10 +9,8 @@ import Contact from './pages/contact.js';
 import React from 'react';
 // import View from './table.js'
 
-import {
-  BrowserRouter as Router, Routes,
-  Route
-} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+
 import LoginPage from './Authentication/loginPage.js';
 
 function App() {
