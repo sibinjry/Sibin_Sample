@@ -1,5 +1,5 @@
 div.first2-div{
-    background-image: url('about.jpg');
+    background-image: url('../images/about.jpg');
     background-size: cover;
     height: 300px;
     background-position: center;

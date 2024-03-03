@@ -1,7 +1,7 @@
 import React from"react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button,Row,Col,Container} from "react-bootstrap";
- import './osoffers.css';
+ import '../assets/css/osoffers.css';
 import { useContext, useState } from "react";
 import { AppContext } from "./Context";
 import Table from 'react-bootstrap/Table';

@@ -1,5 +1,5 @@
 import React from "react";
-import './packages.css';
+import '../assets/css/packages.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaRupeeSign } from 'react-icons/fa';

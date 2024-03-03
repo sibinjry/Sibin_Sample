@@ -2,7 +2,7 @@ div.Main-div{
     background-color: white;
 }
 div.first1-div{
-    background-image: url('real1.jpg');
+    background-image: url('../images/real1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,14 +32,14 @@ p.second-Par{
     filter: drop-shadow(10px 10px 10px black);
 
 }
-.btn{
+/* .btn{
     display: flex;
     align-items: center;
     justify-content: center;
     align-items: center;
     margin-left: 620px;
     margin-top: -240px;
-}
+} */
 div.Second-Div{
     padding-top: 90px;
 }

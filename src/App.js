@@ -1,53 +1,43 @@
-import Header from './header.js';
+import Header from './pages/header.js';
 
-import Home from './Home.js'
-import About from './about.js';
-import Addpackages from './addpackages.js';
-import Login from'./login.js';
-import Packages from './packages.js';
-import Contact from './contact.js';
+import Home from './pages/Home.js'
+import About from './pages/about.js';
+import Addpackages from './pages/addpackages.js';
+import Login from './pages/login.js';
+import Packages from './pages/packages.js';
+import Contact from './pages/contact.js';
 import React from 'react';
 // import View from './table.js'
-import { Actions } from "./action";
-import { Provider } from "./Context";
 
 import {
-  BrowserRouter as Router,Routes,
+  BrowserRouter as Router, Routes,
   Route
 } from 'react-router-dom';
+import LoginPage from './Authentication/loginPage.js';
 
 
 
 
 function App() {
-  const data = Actions();
+  // const data = Actions();
 
   return (
     <>
-        <Provider value={data}>
-
-    <Header/>
-    <Router>
-      
-      <Routes>
-      
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/Home.js' element={<Home/>} />
-        <Route exact path='/about.js' element={<About/>} />
-        <Route exact path='/packages.js' element={<Packages/>} />
-        <Route exact path='/addpackages.js' element={<Addpackages/>} />
-
-        <Route exact path='/login.js' element={<Login/>} />
-        <Route exact path='/contact.js' element={<Contact/>} />
-        <Route exact path='/header.js' element={<Header/>} />
-        {/* <Route exact path='/table.js' element={<View/>} /> */}
-
-
-
-
-      </Routes>
-    </Router> 
-    </Provider>
+      {/* <Provider> */}
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<LoginPage />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/packages' element={<Packages />} />
+          <Route path='/addpackages' element={<Addpackages />} />
+          {/* <Route path='/login' element={<Login />} /> */}
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+      </Router>
+      {/* </Provider> */}
     </>
   );
 }
