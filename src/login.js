@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form } from 'react-bootstrap';
 import { useState, useContext } from "react";
 import { AppContext } from "./Context";
-import Register from './register';
+// import Register from './register';
 import { Link } from 'react-router-dom';
 
 
